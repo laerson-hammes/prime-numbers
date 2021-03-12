@@ -9,4 +9,5 @@ def prime_numbers(data):
          numbers.append(number)
    print(numbers)
 
+   
 prime_numbers(list(range(1, 1000)))
