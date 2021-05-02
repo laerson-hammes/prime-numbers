@@ -1,4 +1,4 @@
-def prime_numbers(data):
+def prime_numbers(data: list) -> list[int]:
    numbers = []
    for number in data:
       aux = 0
@@ -7,7 +7,7 @@ def prime_numbers(data):
             aux += 1
       if aux == 2:
          numbers.append(number)
-   print(numbers)
+   return numbers
 
-   
-prime_numbers(list(range(1, 1000)))
+
+print(prime_numbers(list(range(1, 1000))))
